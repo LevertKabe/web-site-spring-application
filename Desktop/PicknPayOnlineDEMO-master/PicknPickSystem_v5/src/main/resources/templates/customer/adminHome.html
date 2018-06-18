@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(193, 3, 79);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(193, 13, 90);
+}
+</style>
+        
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+</style>
+    </head>
+    <body>
+        <ul style="margin-top:15px; background-color: rgb(193, 3, 79);color: #E4F1FE;">
+            <li><a href="/logout">LOGOUT</a></li>
+        </ul>
+<ul style="margin-top:0px; background-color: rgb(193, 3, 79);color: #E4F1FE;">
+    <li> <a href="/customerHome" ><img  th:src="@{/images/logo.jpg}"  width="200" height="110" alt="logo" /></li>   
+</ul>
+        <ul>
+            <li><a href="/../customerAdminView">Customers</a></li>
+            <li><a class="active" href="/../productsView">Products</a></li>
+            <li><a href="/../orderView">Order</a></li> 
+            
+        </ul>
+            
+        <img src="../../../images/admin-header.jpg" alt=""/>
+
+    </body>
+</html>
