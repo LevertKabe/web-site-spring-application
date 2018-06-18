@@ -1,17 +1,14 @@
-PicknPayOnlineDEMO
-
 Web Application
 
 I replicated the Pick 'n Pay website with multiple functionalities, this application was developed using multiple technologies and a vast number of programming techniques listed below:
 
 LANGUAGE:
-
 Java
 HTML
 CSS
-AngualarJS
+AngularJS
 SQL(for testing purposes)
-FRAMEWORKS:
 
+FRAMEWORKS:
 Spring framework
 Hibernate
